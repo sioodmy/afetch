@@ -1,9 +1,9 @@
-#define UserText    "       " //
-#define OsText      "       " //
-#define KernelText  "       " //
-#define UptimeText  "       " //
-#define ShellText   "       " //
-#define PackageText "       " //
+#define UserText    "       " //
+#define OsText      "       " //
+#define KernelText  "       " //
+#define UptimeText  "       " //
+#define ShellText   "       " //
+#define PackageText "       " //
 
 /* Those two options are mutually exclusive.
  * Either set one to 'true' or both to 'false'. */
