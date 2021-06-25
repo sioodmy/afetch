@@ -232,12 +232,12 @@ void *os()
 				"dpkg -l | tail -n+6 | wc -l";
 		} else if (strncmp(osname, "Arch7", 10 ) == 0){
 			info.col1 = BCYAN "";
-			info.col2 = BCYAN " _______ ";
-			info.col3 = BCYAN "|____   \\";
-			info.col4 = BCYAN "    / /\\ \\";
-			info.col5 = BCYAN "   / /__\\ \\";
-			info.col6 = BCYAN "  / /____\\ \\";
-			info.col7 = BCYAN " /_/      \\_\\";
+			info.col2 = BCYAN " ________     ";
+			info.col3 = BCYAN "|____   \\     ";
+			info.col4 = BCYAN "    / /\\ \\    ";
+			info.col5 = BCYAN "   / /__\\ \\   ";
+			info.col6 = BCYAN "  / /____\\ \\  ";
+			info.col7 = BCYAN " /_/      \\_\\ ";
 			info.col8 = BCYAN "";
 			info.getPkgCount = "pacman -Qq | wc -l";
 		} else if (strncmp(osname, "elementary OS", 12) == 0) {
