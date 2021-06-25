@@ -230,9 +230,9 @@ void *os()
 			info.col8 = BRED "";
 			info.getPkgCount =
 				"dpkg -l | tail -n+6 | wc -l";
-		} else if (strncmp(osname, "Arch7", 10 ) == 0){
+		} else if (strncmp(osname, "Arch7", 5 ) == 0){
 			info.col1 = BCYAN "";
-			info.col2 = BCYAN " ________     ";
+			info.col2 = BCYAN " _______      ";
 			info.col3 = BCYAN "|____   \\     ";
 			info.col4 = BCYAN "    / /\\ \\    ";
 			info.col5 = BCYAN "   / /__\\ \\   ";
